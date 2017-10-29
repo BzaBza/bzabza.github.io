@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+
+.footer-info > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.follow > li > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.follow > li {
+    margin-left: 2em;
+    display: inline-block;
+}
+
+.facebook {
+    background-image: url("../icons/facebook.png");
+    height: 14px;
+    width: 8px;
+}
+
+.twt {
+    background-image: url("../icons/twitter.png");
+    height: 13px;
+    width: 18px;
+}
+
+.instagram {
+    background-image: url("../icons/instagram.png");
+    height: 15px;
+    width: 15px;
+}
+
+@media (max-width: 1250px) {
+    .nav {
+        display: none;
+    }
+}

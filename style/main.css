@@ -1,0 +1,47 @@
+html {
+    padding: 0;
+    margin: 2% 4% 0 4%;
+}
+
+.signature {
+    width: 100%;
+    min-width: 300px;
+    color: #b4ad9e;
+    font-family: Ubuntu, serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 9em 0 9em;
+}
+
+.content {
+    align-items: center;
+    color: #626262;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 34%;
+    justify-content: flex-start;
+}
+
+.lifestyle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content > img {
+    width: 100%;
+}
+
+.load-info{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
