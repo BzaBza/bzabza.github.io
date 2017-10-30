@@ -8,6 +8,10 @@ html {
     line-height: 24px;
 }
 
+a {
+    cursor: pointer;
+}
+
 input {
     outline: 0 !important;
 }
