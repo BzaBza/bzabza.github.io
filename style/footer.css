@@ -5,6 +5,7 @@
     justify-content: space-around;
     background-color: #f0f0f0;
     align-items: center;
+    margin: 0;
 }
 
 .footer-info > a {
@@ -38,10 +39,4 @@
     background-image: url("../icons/instagram.png");
     height: 15px;
     width: 15px;
-}
-
-@media (max-width: 1250px) {
-    .nav {
-        display: none;
-    }
 }

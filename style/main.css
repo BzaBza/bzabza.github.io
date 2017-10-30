@@ -1,6 +1,20 @@
 html {
     padding: 0;
-    margin: 2% 4% 0 4%;
+    margin: 0 4% 0 4%;
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+    line-height: 24px;
+}
+
+input {
+    outline: 0 !important;
+}
+
+button {
+    cursor: pointer;
+    outline: 0 !important;
 }
 
 .signature {
@@ -8,12 +22,12 @@ html {
     min-width: 300px;
     color: #b4ad9e;
     font-family: Ubuntu, serif;
-    font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
 }
 
 .wrapper {
+    color: #626262;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -22,12 +36,8 @@ html {
 }
 
 .content {
-    align-items: center;
     color: #626262;
-    display: flex;
-    flex-wrap: wrap;
     flex-basis: 34%;
-    justify-content: flex-start;
 }
 
 .lifestyle {
@@ -40,8 +50,29 @@ html {
     width: 100%;
 }
 
-.load-info{
+.load-more {
+    padding: 1em;
+    background: none;
+    border: 1px solid black;
+    color: #626262;
+    font-size: 20px;
+    margin-top: 10em;
+}
+
+.load-info {
     height: 100vh;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        margin: 0 1em 0 1em;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .nav {
+        display: none;
+    }
 }

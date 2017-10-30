@@ -1,0 +1,39 @@
+.sign-up {
+    display: flex;
+    width: 100%;
+    height: 289px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    color: #626262;
+}
+
+.sign-up > h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.sign-up-form {
+    border-bottom: 1px solid #000000;
+}
+
+.user-email{
+    border: none;
+    padding-right: 5em;
+    height: 3em;
+    color: #626262;
+
+}
+
+.submit{
+    background: url("../icons/send-icon.png");
+    width: 32px;
+    height: 17px;
+    border: none;
+    background-position: top center;
+    margin-bottom: 1em;
+}
+

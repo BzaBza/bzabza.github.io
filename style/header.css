@@ -1,16 +1,22 @@
-.header{
+.header {
+    position: fixed;
     width: 100%;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
+    background: white;
+    top: 0;
+    align-items: center;
 }
-.nav>ul>li{
+
+.nav > ul > li {
     display: inline-block;
-    padding-left: 10em;
+    padding-right:  10em;
 }
-.nav>ul>li>a{
+
+.nav > ul > li > a {
     color: #626262;
     text-decoration: none;
-    font-weight: 400;
     font-family: "Playfair Display", serif;
     text-transform: uppercase;
 }
